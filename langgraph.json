@@ -1,7 +1,9 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "agent": "./src/agent/graph.py:graph"
+    "master_agent": "./src/agent/master_agent.py:graph",
+    "rent_agent": "./src/agent/rent_cars_agent.py:graph",
+    "sales_agent": "./src/agent/sales_cars_agent.py:graph"
   },
   "env": ".env",
   "image_distro": "wolfi"
